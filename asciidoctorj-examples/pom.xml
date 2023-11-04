@@ -7,12 +7,12 @@
         <artifactId>asciidoctorj-projects</artifactId>
         <version>1.0.0</version>
     </parent>
-    <groupId>de.quoss.asciidoctorj</groupId>
     <artifactId>asciidoctorj-examples</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <asciidoctorj.version>2.5.10</asciidoctorj.version>
         <logback.version>1.4.11</logback.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <slf4j.version>2.0.9</slf4j.version>
     </properties>
     <dependencyManagement>
@@ -69,7 +69,7 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.11.0</version>
                     <configuration>
-                        <release>21</release>
+                        <release>17</release>
                     </configuration>
                 </plugin>
             </plugins>

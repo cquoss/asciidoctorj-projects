@@ -3,3 +3,8 @@ target/
 
 # Microsoft Visual Studio Code
 .vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/

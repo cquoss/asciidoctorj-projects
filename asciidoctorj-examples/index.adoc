@@ -1,0 +1,3 @@
+= Asciidoctor Example Content
+
+include::example.adoc[]
